@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script defer src="http://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- css styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+</head>
+
+<body>
+  <!-- NAv Bar -->
+  <section id="title">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">Shortly</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feature">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Resources</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button type="button" class="btn btn-white btn-login">Login</button>
+            <button type="button" class="btn btn-primary btn-lg btn-cyan">Sign Up</button>
+          </form>
+        </div>
+      </nav>
+      <!-- title -->
+      <div class="cropped">
+        <img class="illu-work-phone" src="images/illustration-working.svg" alt="illustration-working">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 title1">
+          <h1>More than just shorter links</h1>
+          <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+          <button type="button" class="btn btn-primary btn-lg btn-cyan">Get Started</button>
+        </div>
+        <div class="cropped col-lg-6 col-sm-12">
+          <img class="illu-work" src="images/illustration-working.svg" alt="illustration-working">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Link -->
+  <section id="feature">
+
+    <div class=" link">
+
+      <input class="input-link" type="text" name="shorten" value="Shorten a link here..">
+
+      <button class=" btn-link" type="button" class="btn btn-primary btn-lg btn-link">Shorten It!</button>
+
+    </div>
+
+    <!-- features -->
+    <div class="features">
+      <h1 class="features-h1">Advanced Statistics</h1>
+      <p class="features-p1">Track how your links are performing across the web with our
+        advanced statistics dashboard.</p>
+
+      <!-- cards -->
+      <div class="container">
+        <div class="card-deck mb-3 text-left hhh">
+
+          <div class="card mb-4 shadow-sm features-card">
+            <div class="card-icon">
+              <img class="icon icon-position" src="images/icon-brand-recognition.svg" alt="">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Brand Recognition</h5>
+              <p class="card-text">Boost your brand recognition with each click. Generic links don’t
+                mean a thing. Branded links help instil confidence in your content.</p>
+            </div>
+          </div>
+
+          <div class="card mb-4 shadow-sm features-card card2">
+            <div class="card-icon">
+              <img class="icon icon-position" src="images/icon-detailed-records.svg" alt="">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Detailed Records</h5>
+              <p class="card-text">Gain insights into who is clicking your links. Knowing when and where
+                people engage with your content helps inform better decisions.</p>
+            </div>
+          </div>
+
+          <div class="card mb-4 shadow-sm features-card card3">
+            <div class="card-icon">
+              <img class="icon icon-position" src="images/icon-fully-customizable.svg" alt="">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Fully Customizable</h5>
+              <p class="card-text">Improve brand awareness and content discoverability through customizable
+                links, supercharging audience engagement.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <hr class="cyan-line">
+
+    </div>
+
+    <div class="get-started">
+      <h1>Boost your links today</h1>
+      <button type="button" class="btn btn-primary btn-lg btn-cyan">Get Started</button>
+    </div>
+  </section>
+  <!-- footer -->
+
+  <footer id="footer" class="pt-4 my-md-5 pt-md-5  last-part">
+    <div class="row">
+      <div class="col-lg-4 col-md col-sm-12 first-last">
+        <h1>shortly</h1>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <div class="row">
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Link Shortening</a></li>
+              <li><a class="text-muted" href="#">Branded Links</a></li>
+              <li><a class="text-muted" href="#">Analytics</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Blog</a></li>
+              <li><a class="text-muted" href="#">Developers</a></li>
+              <li><a class="text-muted" href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Company</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">About</a></li>
+              <li><a class="text-muted" href="#">Our Team</a></li>
+              <li><a class="text-muted" href="#">Careers</a></li>
+              <li><a class="text-muted" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md col-sm-12 first-last">
+        <i class="fab fa-facebook-square footer-icon"></i>
+        <i class="fab fa-twitter footer-icon "></i>
+        <i class="fab fa-pinterest footer-icon"></i>
+        <i class="fab fa-instagram footer-icon "></i>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">ALI</a>.
+  </div>
+</body>
+
+</html>
